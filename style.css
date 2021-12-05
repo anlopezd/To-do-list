@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(233, 45, 61);
+}
+
+.container {
+    width: 700px;
+    margin: 120px auto;
+    background-color: rgb(241, 250, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.form-container {
+   margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgba(29, 53, 87);
+    padding: 0 5px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+#btn {
+padding: 8px 16px;
+background-color: rgba(29, 53, 87);
+cursor: pointer;
+color: white;
+}
+
+ul {
+    width: 95%;
+}
+ul p {
+    word-wrap: break-word;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+    background-color: rgba(168, 218, 220);
+    margin: 10px 0;
+    padding: 15px 10px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.empty p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(233, 45, 61);
+    position: absolute;
+    right: -48px;
+    top: 8px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    input {
+        width: 60%;
+    }
+    ul {
+        width: 80%;
+    }
+}
