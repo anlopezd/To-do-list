@@ -24,6 +24,7 @@ addBtn.addEventListener("click", (e) => {
         numbers.style.display = "none";
     } else if (text.match(numeros)) {
         numbers.style.display = "block";
+        input.value = ""
     }
     
 
