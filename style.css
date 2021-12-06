@@ -92,3 +92,8 @@ li {
         width: 80%;
     }
 }
+
+.numbers {
+    color: red;
+    display: none;
+}
